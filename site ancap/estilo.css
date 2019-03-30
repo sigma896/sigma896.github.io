@@ -1,0 +1,106 @@
+/* *** Limpar Formatações Padrões *** */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	font-size: 1em;
+	background: #071019;
+}
+
+
+/* *** Layout *** */
+
+.menu{
+	background: white;
+	padding: 10px 10px;
+	text-align: center;
+}
+
+.menu a{
+	color: black;
+}
+
+.menu a:link{
+	
+	padding: 12px 12px;
+	text-decoration: none;
+}
+
+.menu a:hover{
+	border-top: 3px solid black;
+}
+
+.inline{
+	display: inline;
+}
+
+.position{
+	position: relative;
+	bottom: 50px;	
+}
+
+/* *** Menu Inferior *** */
+.menu-inferior{
+	background: #0B615E;
+	color: white;
+	font-size: 1.2em;
+	padding: 35px 35px;
+	text-align: center;
+}
+
+.menu-inferior a{
+	color: white;
+	text-decoration: none;
+	background: #071019;
+	padding: 12px 12px;
+}
+
+.menu-inferior a:hover{
+	color: yellow;
+}
+
+/* *** Corpo *** */
+
+#titulo{
+	font-size: 3em;
+	color: yellow;
+	text-align: center;
+	padding: 30px;
+}
+
+/* *** layout lateral *** */
+
+.layout-lateral{
+	width: 240px;
+	height: 240px;
+	color: white;
+	position: absolute;
+	left: 1100px;
+
+}
+
+.layout-lateral a{
+	text-decoration: none;
+	position: relative;
+	left: 22px;
+	color: #071019;
+	background: yellow;
+	padding: 15px;
+}
+
+.layout-lateral a:hover{
+	background: #0B615E;
+	color: yellow;
+}
+
+.mapa{
+	text-align: center;
+	margin: 30px;
+}
+
+.rodape{
+	text-align: center;
+	color: white;
+}
